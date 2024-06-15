@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Unit Converter</title>
+</head>
+    <body>
+        <div id="header">
+        <h1 id="title"> Unit Converter</h1>
+        <p id="title-sub">CONVERT DISTANCE UNITS</p>
+        </div>
+        <hr id="line">
+        <div id="box">
+            <div class="converter"> 
+                <p id="subTitle">Distance units converter</p>
+                <hr>
+                <div id="enteringUnit" >
+                    <p id="processText">Unit</p>
+                    <form id="inputBox">
+                        <input type="number" placeholder="Enter unit">
+                        <select id="entry-dropdown" name="options">
+                            <option value="cm" selected>cm</option>
+                            <option value="m">m</option>
+                            <option value="hm">hm</option>
+                            <option value="dam">dam</option>
+                            <option value="m">m</option>
+                            <option value="dm">dm</option>
+                            <option value="mm">mm</option>
+                        </select>
+                    </form>
+                </div>
+                <div id="outPutUnit">
+                    <p id="processText">Converted Unit</p>
+                    <div id="text">
+                    0
+                    </div>
+                </div>
+            </div>
+        </div>
