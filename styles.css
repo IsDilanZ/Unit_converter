@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(to left,rgb(21, 154, 156), rgb(0, 35, 51));
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
 }
 h1{
     text-align: center;
@@ -52,7 +53,16 @@ h1{
     display: flex;
 }
 #imgfix{
+    margin: auto;
     max-block-size: 150px;
+}
+#imgTemp{
+    margin: auto;
+    max-block-size: 150px;
+}
+#imgTime{
+    margin: auto;
+    max-block-size: 120px;
 }
 #boxOne{
     display:grid;
@@ -63,6 +73,7 @@ h1{
     border-radius: 10px;
     margin: 12px 10px 10px 0px;
     position: relative;
+    padding-inline: 14px;
 }
 #boxTwo{
     display:grid;
@@ -72,5 +83,24 @@ h1{
     background-color: white;
     border-radius: 10px;
     margin: 12px 10px 10px 0px;
-    position:sticky;
+    padding-inline: 20px;
+}
+#boxThree{
+    display:grid;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 12px 10px 10px 0px;
+    padding-inline: 46px;
+}
+#boxFour{
+    display:grid;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 12px 10px 10px 0px;
 }

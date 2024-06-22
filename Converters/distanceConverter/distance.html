@@ -8,7 +8,7 @@
 </head>
     <body>
         <div id="header">
-        <h1 id="title"> Unit Converter</h1>
+        <h1 id="title"> Unit Converter</h1> 
         <p id="title-sub">CONVERT DISTANCE UNITS</p>
         </div>
         <hr id="line">
@@ -19,23 +19,36 @@
                 <div id="enteringUnit" >
                     <p id="processText">Unit</p>
                     <form id="inputBox">
-                        <input type="number" placeholder="Enter unit">
+                        <input id="InputValue" type="number" placeholder="Enter unit" >
                         <select id="entry-dropdown" name="options">
-                            <option value="cm" selected>cm</option>
-                            <option value="m">m</option>
+                            <option value="km">km</option>
                             <option value="hm">hm</option>
                             <option value="dam">dam</option>
-                            <option value="m">m</option>
+                            <option value="m" selected>m</option>
                             <option value="dm">dm</option>
+                            <option value="cm">cm</option>
                             <option value="mm">mm</option>
                         </select>
                     </form>
                 </div>
                 <div id="outPutUnit">
-                    <p id="processText">Converted Unit</p>
-                    <div id="text">
+                    <p id="ConvertedTxt">Converted Unit</p>
+                    <select id="outPut-dropdown" name="options">
+                        <option value="km">km</option>
+                        <option value="hm">hm</option>
+                        <option value="dam">dam</option>
+                        <option value="m" selected>m</option>
+                        <option value="dm">dm</option>
+                        <option value="cm">cm</option>
+                        <option value="mm">mm</option>
+                    </select>
+                    <div id="textOutput">
                     0
                     </div>
+                    <button onclick="getNumberValue()" >Calculate</button>
                 </div>
             </div>
         </div>
+    </body>
+    <script src="script.js"></script>
+</html>

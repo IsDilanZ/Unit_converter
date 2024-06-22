@@ -1,5 +1,7 @@
 body{
     background: linear-gradient(to left,rgb(21, 154, 156), rgb(0, 35, 51));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
 }
 h1{
     text-align: center;
@@ -19,18 +21,18 @@ h1{
     border-radius: 5px;
 }
 #box{
-    
     background-color: rgb(180, 190, 201);
     margin-inline: 35%;
-    margin-top: 5%;
+    margin-top: 4%;
     align-content: center;
     border-radius: 10px;
+    display: grid;
 }
 #subTitle{
     text-align: center;
     color: white;
 }
-#text{
+#textOutput{
     background-color: white;
     padding: 10px;
     text-align: center;
@@ -59,4 +61,23 @@ h1{
 }
 input{
     width: 85%;
+}
+#ConvertedTxt{
+    width: 82%;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-inline-width: 10px;
+    border-inline-color: rgb(21, 154, 156);
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: inline-block;
+}
+#entry-dropdown{
+    display: inline;
+    border-radius: 10px;
+}
+#outPut-dropdown{
+    display: inline;
+    border-radius: 10px;
 }
